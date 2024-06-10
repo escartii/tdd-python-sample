@@ -9,7 +9,7 @@ class TestClass:
 
     # Test para la operación suma
     def test_resta(self):
-        assert resta(4,5) == -1
-        assert resta(-1,-2) == -1
-        assert resta(7,5) == 0
-        assert resta(-7,9) == 2
+        assert resta(4,2) == 2
+        assert resta(3,1) == 2
+        assert resta(7,5) == 2
+        assert resta(3,2) == 1
